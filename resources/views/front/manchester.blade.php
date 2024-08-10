@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Why Kanpur is Called the Manchester of India</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.4/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 text-gray-900 font-sans leading-relaxed">
-
-    <div class="container mx-auto p-6">
-        <header class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-red-700">Why Kanpur is Called the Manchester of India</h1>
-            <p class="text-lg text-gray-600 mt-2">An exploration of Kanpur's historical and economic significance.</p>
-        </header>
-
+@extends('component.main')
+@section('content')
        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <section class="bg-white shadow-lg rounded-lg p-6 mb-8">
             <h2 class="text-3xl font-semibold text-red-600 mb-4">Historical Context</h2>
@@ -50,6 +35,4 @@
         </section>
        </div>
     </div>
-
-</body>
-</html>
+@endsection

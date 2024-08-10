@@ -1,162 +1,258 @@
 @extends('component.main')
 @section('content')
 
-    <!-- Header -->
-    <header class="bg-red-900 text-white p-4 text-center">
-        <h1 class="text-3xl font-bold">Spiritual Hindu Festivals and Temples</h1>
-    </header>
+<!-- Header -->
+<header class="bg-red-900 text-white py-8 text-center">
+    <h1 class="text-4xl font-bold">Spiritual Hindu Temples of Kanpur</h1>
+</header>
 
-    <!-- Main Content -->
-    <div class="container mx-auto p-6 flex flex-wrap gap-4">
+<!-- Main Content -->
+<div class="container mx-auto px-4 py-12">
+    <div class="flex flex-wrap -mx-4">
         <!-- Articles Section -->
-        <div class="w-full md:w-2/3">
-         
-            
-                <!-- Temple Sections -->
-            <div class="space-y-12 ">
-                    <!-- JK Temple Section -->
-                    <section class="grid md:grid-cols-2 gap-8 bg-white shadow-lg rounded-lg p-6 md:p-8 lg:p-10">
-                        <img src="assets/img/jk.png" alt="JK Temple" class="w-full h-auto rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300">
-                        <div class="flex flex-col justify-center">
-                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">About JK Temple</h2>
+        <div class="w-full lg:w-2/3 px-4 mb-8">
+            <!-- Temple Sections -->
+            <div class="space-y-16">
+                <!-- JK Temple Section -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets/img/jk.png" alt="JK Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">JK Temple</h2>
                             <p class="text-gray-600 mb-6 leading-relaxed">JK Temple, also known as Radhakrishna Temple, is a prominent landmark and religious site in Kanpur. It is known for its architectural beauty and serene ambiance...</p>
-                            <h3 class="text-2xl font-semibold text-gray-700 mb-2">Location</h3>
-                            <p class="text-gray-600 mb-6">Address: Kamla Tower, Kanpur, Uttar Pradesh 208001</p>
-                            <h3 class="text-2xl font-semibold text-gray-700 mb-2">Timings</h3>
-                            <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Kamla Tower, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
                         </div>
-                    </section>
-                    
-                    
-                    <!-- Jageshwar Temple Section -->
-                    <section class="grid md:grid-cols-2 gap-8 bg-white p-6 md:p-8 lg:p-10 shadow-lg rounded-lg">
-                        <img src="assets/img/jagneshar.png" alt="Jageshwar Temple" class="w-full h-auto rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300">
-                        <div class="flex flex-col justify-center">
-                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">About Jageshwar Temple</h2>
-                            <p class="text-gray-600 mb-6 leading-relaxed">Jageshwar Temple is an ancient temple complex located in Kanpur, known for its historical significance and architectural beauty...</p>
-                            <h3 class="text-2xl font-semibold text-gray-700 mb-2">Location</h3>
-                            <p class="text-gray-600 mb-6">Address: Jageshwar Nagar, Kanpur, Uttar Pradesh 208001</p>
-                            <h3 class="text-2xl font-semibold text-gray-700 mb-2">Timings</h3>
-                            <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
-                        </div>
-                    </section>
-                    
-            
-                    <!-- Anandeshwar Temple Section -->
-<section class="grid md:grid-cols-2 gap-8 bg-white p-6 md:p-8 lg:p-10 shadow-lg rounded-lg mb-10">
-    <img src="assets/img/Anandeshwar Temple.avif" alt="Anandeshwar Temple" class="w-full rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300">
-    <div class="flex flex-col justify-center">
-        <h2 class="text-3xl font-semibold text-gray-800 mb-4">About Anandeshwar Temple</h2>
-        <p class="text-gray-600 mb-6 leading-relaxed">The Anandeshwar Temple is a historic shrine located in Kanpur...</p>
-        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Location</h3>
-        <p class="text-gray-600 mb-6">Address: Ganga Ghat, Kanpur, Uttar Pradesh 208001</p>
-        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Timings</h3>
-        <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
-    </div>
-</section>
+                    </div>
+                </section>
 
-<!-- Dwarikadhish Temple Section -->
-<section class="grid md:grid-cols-2 gap-8 bg-white p-6 md:p-8 lg:p-10 shadow-lg rounded-lg mb-10">
-    <img src="assets/img/Dwarikadhish Temple.png" alt="Dwarikadhish Temple" class="w-full rounded-lg shadow-md transition-transform transform hover:scale-105 duration-300">
-    <div class="flex flex-col justify-center">
-        <h2 class="text-3xl font-semibold text-gray-800 mb-4">About Dwarikadhish Temple</h2>
-        <p class="text-gray-600 mb-6 leading-relaxed">The Dwarikadhish Temple in Kanpur is a magnificent shrine dedicated to Lord Krishna...</p>
-        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Location</h3>
-        <p class="text-gray-600 mb-6">Address: Civil Lines, Kanpur, Uttar Pradesh 208001</p>
-        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Timings</h3>
-        <p class="text-gray-600">Open daily: 5:30 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
-    </div>
-</section>
-            
-                    <!-- Shri Radhakrishna Temple Section -->
-                    <section class="grid md:grid-cols-2 gap-8 bg-gray-50 p-6 rounded-lg shadow-lg">
-                        <img src="assets/img/Shri Radhakrishna Temple1.png" alt="Shri Radhakrishna Temple" class="w-full rounded-lg shadow-md">
-                        <div>
-                            <h2 class="text-3xl font-bold text-gray-800 mb-4">About Shri Radhakrishna Temple</h2>
-                            <p class="text-gray-700 mb-6">
-                                Shri Radhakrishna Temple, popularly known as JK Temple, is one of the most renowned temples in Kanpur. Built by the JK Trust in 1960, this temple showcases a beautiful blend of modern architecture with traditional Hindu design. The temple is dedicated to Lord Radhakrishna and features stunning marble carvings and tranquil surroundings.
-                            </p>
-                            {{-- <h3 class="text-2xl font-semibold text-gray-800 mb-2">Architecture</h3>
-                            <p class="text-gray-700 mb-6">
-                                The temple is an architectural marvel with intricate carvings and a blend of north and south Indian temple styles. The central shrine is surrounded by five main shrines, making it a unique structure in its design and layout.
-                            </p> --}}
-                            <h3 class="text-2xl font-semibold text-gray-800 mb-2">Location</h3>
-                            <p class="text-gray-700 mb-6">
-                                Address: Kamla Tower, Kamla Nagar, Kanpur, Uttar Pradesh 208001
-                            </p>
-                            <h3 class="text-2xl font-semibold text-gray-800 mb-2">Timings</h3>
-                            <p class="text-gray-700">
-                                Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM
-                            </p>
+                <!-- Jageshwar Temple Section -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets/img/jagneshar.png" alt="Jageshwar Temple" class="w-full h-full object-cover">
                         </div>
-                    </section>
-                    
-                </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Jageshwar Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">Jageshwar Temple is an ancient temple complex known for its historical significance and architectural beauty...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Jageshwar Nagar, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Anandeshwar Temple Section -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets/img/Anandeshwar Temple.avif" alt="Anandeshwar Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Anandeshwar Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">The Anandeshwar Temple is a historic shrine located in Kanpur, known for its spiritual significance...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Ganga Ghat, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Dwarikadhish Temple Section -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets/img/Dwarikadhish Temple.png" alt="Dwarikadhish Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Dwarikadhish Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">The Dwarikadhish Temple in Kanpur is a magnificent shrine dedicated to Lord Krishna, known for its beautiful architecture...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Civil Lines, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:30 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- New Temple: Shri Radha Krishna Temple -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets/img/Shri Radhakrishna Temple1.png" alt="Shri Radha Krishna Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Shri Radha Krishna Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">Shri Radha Krishna Temple is a beautiful shrine dedicated to Lord Krishna and Radha, known for its intricate carvings and peaceful atmosphere...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Govind Nagar, Kanpur, Uttar Pradesh 208006</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- New Temple: Panki Hanuman Temple -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets\img\pankii.jpeg" alt="Panki Hanuman Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Panki Hanuman Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">Panki Hanuman Temple is a famous shrine dedicated to Lord Hanuman, known for its spiritual energy and devotional atmosphere...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Panki, Kanpur, Uttar Pradesh 208020</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- New Temple: Shri Radhakrishna Temple (JK Temple) -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets\img\shri-radhakrishna-temple.jpg" alt="Shri Radhakrishna Temple (JK Temple)" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Shri Radhakrishna Temple (JK Temple)</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">This temple, also known as JK Temple, is a modern architectural marvel dedicated to Radha and Krishna, featuring beautiful marble work and serene surroundings...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Kamla Tower, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 5:00 AM to 12:00 PM and 4:00 PM to 9:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- New Temple: Jain Glass Temple -->
+                <section class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/2">
+                            <img src="assets\img\jain-glass-temple.jpg" alt="Jain Glass Temple" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:w-1/2 p-6 md:p-8 lg:p-10">
+                            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Jain Glass Temple</h2>
+                            <p class="text-gray-600 mb-6 leading-relaxed">The Jain Glass Temple is a unique architectural wonder, adorned with intricate glasswork and mosaic patterns, dedicated to Jain Tirthankaras...</p>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Location</h3>
+                                    <p class="text-gray-600">Maheshwari Mohal, Kanpur, Uttar Pradesh 208001</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-700 mb-1">Timings</h3>
+                                    <p class="text-gray-600">Open daily: 6:00 AM to 8:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+                <!-- Repeat similar structure for other temple sections -->
+                
             </div>
             
-<div class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
-<div class="p-6">
-<h2 class="text-2xl font-bold mb-4">Festivals and Rituals</h2>
-<ul class="list-disc list-inside">
-<li class="mb-2">Gudhi Padwa</li>
-<li class="mb-2">Vat Pournima</li>
-<li class="mb-2">Ashadhi Ekadashi</li>
-<li class="mb-2">Mangala Gauri</li>
-<li class="mb-2">Naag Panchami</li>
-<li class="mb-2">Narali Pournima</li>
-<li class="mb-2">Janmashtami (Dahi Handi)</li>
-<li class="mb-2">Pola</li>
-<li class="mb-2">Ganesh Chaturthi</li>
-<li class="mb-2">Kozagiri Purnima</li>
-<li class="mb-2">Bhau beej</li>
-<li class="mb-2">Bangana Festival</li>
-<li class="mb-2">Ellora Festival</li>
-</ul>
-<a href="#" class="text-red-700 font-bold">Continue Reading</a>
-</div>
-</div>
-            
-</div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="w-full lg:w-1/3 px-4">
+            <!-- Festivals and Rituals Section -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-800">Festivals and Rituals</h2>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Gudhi Padwa</li>
+                        <li>Vat Pournima</li>
+                        <li>Ashadhi Ekadashi</li>
+                        <!-- Add more list items -->
+                    </ul>
+                    <a href="#" class="inline-block mt-4 text-red-700 font-semibold hover:text-red-800 transition duration-300">Continue Reading</a>
+                </div>
+            </div>
 
-        <!-- Sidebar Section -->
-<aside class="w-full md:w-1/3 md:pl-6">
-<div class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
-<div class="p-6">
-<h3 class="text-xl font-bold mb-4">Recent Posts</h3>
-<ul class="list-none">
-<li class="mb-2">
-<a href="#" class="text-red-700">The Pancha Maha Yagya</a>
-</li>
-<li class="mb-2">
-<a href="#" class="text-red-700">16 Divine Darshans of Unique Shivlingas</a>
-</li>
-<li class="mb-2">
-<a href="#" class="text-red-700">Top 10 Tallest Statues of Hindu Gods in the World</a>
-</li>
+            <!-- Recent Posts Section -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Recent Posts</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">The Pancha Maha Yagya</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">16 Divine Darshans of Unique Shivlingas</a>
+                        </li>
                         <!-- Add more recent posts -->
-</ul>
-</div>
-</div>
+                    </ul>
+                </div>
+            </div>
 
-<div class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
-<div class="p-6">
-<h3 class="text-xl font-bold mb-4">Categories</h3>
-<ul class="list-none">
-<li class="mb-2">
-<a href="#" class="text-red-700">Devi Temple</a>
-</li>
-<li class="mb-2">
-<a href="#" class="text-red-700">Everyday Spiritual Activities</a>
-</li>
-                        <li class="mb-2">
-                            <a href="#" class="text-red-700">Gujarat</a>
+            <!-- Categories Section -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">Categories</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">Devi Temple</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">Everyday Spiritual Activities</a>
                         </li>
                         <!-- Add more categories -->
                     </ul>
                 </div>
             </div>
-        </aside>
+        </div>
     </div>
-
+</div>
 
 @endsection

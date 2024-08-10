@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top 10 Food Places in Kanpur</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.4/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 text-gray-900 font-sans leading-relaxed">
+@extends('component.main')
+@section('content')
 <div class="container mx-auto p-6">
         <h1 class="text-4xl font-bold text-center mb-8">Top 10 Food Places in Kanpur</h1>
 
@@ -15,19 +7,27 @@
             <!-- Restaurant 1 -->
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h2 class="text-2xl font-semibold text-red-600 p-4 text-center">The Yellow Chilli</h2>
-                <img src="assets\img\f1.png" alt="" class="object-cover w-full h-1/2">
+                <div>
+                    <img src="assets\img\f1.png" alt="" class="object-cover w-full h-1/2">
+                </div>
+               <div>
                 <p class="text-lg text-gray-700"><strong>Cuisine:</strong> Indian, North Indian</p>
                 <p class="text-lg text-gray-700"><strong>Location:</strong> 77/32, The Mall, Kanpur</p>
                 <p class="text-lg text-gray-700"><strong>Highlights:</strong> Known for its innovative take on traditional Indian dishes. Signature dishes include Kashmiri Pulao and Peshawari Naan. The ambiance is elegant, making it ideal for both family dinners and business lunches.</p>
+               </div>
             </div>
 
             <!-- Restaurant 2 -->
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h2 class="text-2xl font-semibold text-red-600 p-4 text-center">Biryani Blues</h2>
-                <img src="assets\img\f2_deblurred.jpeg" alt="" class="object-cover w-full h-1/2">
-                <p class="text-lg text-gray-700"><strong>Cuisine:</strong> Indian, Biryani</p>
+                <div>
+                    <img src="assets\img\f2_deblurred.jpeg" alt="" class="object-cover w-full h-1/2">
+                </div>
+                <div>
+                    <p class="text-lg text-gray-700"><strong>Cuisine:</strong> Indian, Biryani</p>
                 <p class="text-lg text-gray-700"><strong>Location:</strong> 14/146, Azad Nagar, Kanpur</p>
                 <p class="text-lg text-gray-700"><strong>Highlights:</strong> Specializes in biryanis with a variety of options including Hyderabadi and Lucknowi Biryani. The restaurant offers a cozy atmosphere and fast service. The biryani here is renowned for its authentic taste and rich flavors.</p>
+                </div>
             </div>
 
             <!-- Restaurant 3 -->

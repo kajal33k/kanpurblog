@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Famous Places in Kanpur</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 font-sans">
-
-    <header class="bg-red-600 text-white p-4">
-        <h1 class="text-3xl font-bold text-center">Famous Places in Kanpur</h1>
-    </header>
-
-    <main class="container mx-auto p-4 flex flex-wrap">
+@extends('component.main')
+@section('content')
+<main class="container mx-auto p-4 flex flex-wrap">
         <section class="w-full md:w-3/4 p-4">
             <h2 class="text-2xl font-semibold mb-4">Explore Kanpur</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -105,6 +93,4 @@
         }
         fetchWeather();
     </script>
-
-</body>
-</html>
+@endsection

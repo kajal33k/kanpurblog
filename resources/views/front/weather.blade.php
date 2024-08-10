@@ -1,46 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanpur Up78 | Kanpur Weather</title>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    {{-- icon link--}}
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-</head>
-<body class="bg-gray-100">
-
-    <!-- Header -->
-    <header class="bg-red-700 text-white py-4 sticky top-0 z-10">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-3xl font-bold">Kanpur Up78</h1>
-            <nav class="hidden md:flex space-x-4">
-                <a href="{{Route('index')}}" class="hover:underline">Home</a>
-                <a href="{{Route('weather')}}" class="hover:underline">Kanpur Weather</a>
-                <a href="{{Route('special')}}" class="hover:underline">Famous Places</a>
-                <a href="#" class="hover:underline">Kanpur News</a>
-                <a href="#" class="hover:underline">Contact</a>
-            </nav>
-            <button class="md:hidden" id="mobile-menu-button">
-                <i class="ri-menu-line text-2xl"></i>
-            </button>
-        </div>
-    </header>
-
-    <!-- Mobile Menu -->
-    <div class="md:hidden bg-red-600 text-white py-2 hidden" id="mobile-menu">
-        <nav class="container mx-auto px-4 flex flex-col space-y-2">
-            <a href="{{Route('index')}}" class="hover:underline">Home</a>
-            <a href="{{Route('weather')}}" class="hover:underline">Kanpur Weather</a>
-            <a href="#" class="hover:underline">Famous Places</a>
-            <a href="#" class="hover:underline">Kanpur News</a>
-            <a href="#" class="hover:underline">Contact</a>
-        </nav>
-    </div>
+@extends('component.main')
+@section('content')
 
     <!-- Main Content -->
     <main class="container mx-auto p-4">
@@ -205,72 +164,10 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-10">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <!-- About Section -->
-                <div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-1 h-8 bg-red-600 mr-4"></div>
-                        <h3 class="text-xl font-bold">About Us</h3>
-                    </div>
-                    <p class="text-gray-200">Kanpur Unique and Famous Places is your go-to blog for discovering the hidden gems, historical landmarks, and cultural hotspots of Kanpur. Join us on a journey to explore the city's rich heritage and vibrant life.</p>
-                </div>
-
-                <!-- Quick Links -->
-                <div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-1 h-8 bg-red-600 mr-4"></div>
-                        <h3 class="text-xl font-bold">Quick Links</h3>
-                    </div>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-200 hover:text-red-600 hover:underline">Home</a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600 hover:underline">About</a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600 hover:underline">Blog</a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600 hover:underline">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact Information -->
-                <div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-1 h-8 bg-red-600 mr-4"></div>
-                        <h3 class="text-xl font-bold">Contact Us</h3>
-                    </div>
-                    <ul class="space-y-2">
-                        <li>Kanpur, Uttar Pradesh</li>
-                        <li>+918299012292</li>
-                        <li><a href="mailto:districtkanpur@gmail.com" class="text-gray-200 hover:text-red-600 hover:underline">districtkanpur@gmail.com</a></li>
-                    </ul>
-                </div>
-
-                <!-- Follow Us -->
-                <div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-1 h-8 bg-red-600 mr-4"></div>
-                        <h3 class="text-xl font-bold">Follow Us</h3>
-                    </div>
-                    <ul class="flex space-x-4">
-                        <li><a href="#" class="text-gray-200 hover:text-red-600"><i class="ri-facebook-line text-2xl"></i></a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600"><i class="ri-twitter-line text-2xl"></i></a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600"><i class="ri-instagram-line text-2xl"></i></a></li>
-                        <li><a href="#" class="text-gray-200 hover:text-red-600"><i class="ri-youtube-line text-2xl"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="text-center text-gray-400 mt-8">
-                <p>Copyright © 2024 Kanpur Up78. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
     <script>
         document.getElementById('mobile-menu-button').addEventListener('click', () => {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
     </script>
-
-</body>
-</html>
+@endsection
