@@ -119,7 +119,7 @@
     </div>
 
     <!-- Aside Section -->
-    <aside class="w-full lg:w-80 bg-gray-100 rounded-lg shadow-lg p-6 mt-8 lg:mt-0">
+    <aside class="w-full lg:w-80 bg-white rounded-lg shadow-lg p-6 mt-8 lg:mt-0">
         <h3 class="text-xl font-semibold mb-4">Related Articles</h3>
         <ul class="space-y-4">
             <li>

@@ -1,6 +1,38 @@
+<!-- Top Bar -->
+<div class="bg-black text-red-500 py-2">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <!-- Contact Info -->
+        <div class="text-sm flex flex-wrap items-center gap-4 mb-2 md:mb-0">
+            <div class="flex items-center">
+                <i class="ri-map-pin-2-fill text-red-500 mr-2"></i>
+                <span>Real Victory Groups, Kanpur</span>
+            </div>
+            <div class="flex items-center">
+                <i class="ri-mail-unread-line text-red-500 mr-2"></i>
+                <span>Email: <a href="mailto:Email@Example.com" class="underline hover:text-red-300">Email@Example.com</a></span>
+            </div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="flex flex-wrap items-center space-x-4">
+            <a href="https://facebook.com" target="_blank" class="text-red-500 hover:text-red-400">
+                <i class="ri-facebook-fill text-lg md:text-xl"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="text-red-500 hover:text-red-400">
+                <i class="ri-twitter-fill text-lg md:text-xl"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="text-red-500 hover:text-red-400">
+                <i class="ri-instagram-fill text-lg md:text-xl"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="text-red-500 hover:text-red-400">
+                <i class="ri-linkedin-fill text-lg md:text-xl"></i>
+            </a>
+        </div>
+    </div>
+</div>
 <nav>
     <div class="max-w-6xl mx-auto px-6 mb-4">
-        <h1 class="font-bold text-3xl">KanpurUp-78</h1>
+        <h1 class="font-bold text-3xl text-red-600">KanpurUp-78</h1>
         <p class="text-sm text-gray-500">||Dil me kanpur || Dil se kanpur||</p>
     </div>
 </nav>
@@ -22,7 +54,7 @@
                 <!-- Primary Nav -->
                 <div class="hidden md:flex items-center space-x-6">
                     <a href="{{Route('index')}}" class="py-5 px-3 text-gray-100 hover:text-gray-200">Home</a>
-                    <a href="#" class="py-5 px-3 text-gray-100 hover:text-gray-200">About</a>
+                    <a href="{{Route('about')}}" class="py-5 px-3 text-gray-100 hover:text-gray-200">About</a>
                     <a href="{{Route('weather')}}" class="py-5 px-3 text-gray-100 hover:text-gray-200">Weather</a>
                     <div class="relative group">
                         <button class="py-5 px-3 text-gray-100 hover:text-gray-200 focus:outline-none">

@@ -7,32 +7,37 @@
             <article class="bg-white p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-bold mb-2 text-gray-800">DSLR Camera Available for Rent in Kanpur</h2>
                 <p class="text-gray-600 mb-4">20/04/2022 by Ravi Pandey</p>
-                <img src="assets\img\DSLR Camera Available for Rent in Kanpur.jpeg" alt="DSLR Camera" class="w-full h-auto object-cover mb-4 rounded-lg">
-
-                <div class="prose max-w-none text-gray-700">
-                    <p>Hello Kanpur residents! You can now rent a DSLR camera in Kanpur. Whether you're going out for a trip or having a wedding at home, a DSLR camera is available at very reasonable rates. This post will guide you on how to rent a DSLR camera in Kanpur.</p>
-
-                    <h3 class="text-xl font-semibold mt-4 mb-2">DSLR Camera Rental Process in Kanpur</h3>
-                    <p>To rent a DSLR camera, call or WhatsApp +91 7753800444 and provide your requirements and booking dates. You will be informed about the camera's availability for your requested dates. After that, you need to pay an advance amount based on the number of days you book, which will confirm your reservation.</p>
-
-                    <h3 class="text-xl font-semibold mt-4 mb-2">Required Documents for Renting a DSLR in Kanpur</h3>
-                    <p>You need to present 2 original ID cards and sign a form to receive the camera. You can easily rent a DSLR camera for photo shoots or travel. Simply pay the rent, use the camera, and return it.</p>
-
-                    <h3 class="text-xl font-semibold mt-4 mb-2">Camera Model</h3>
-                    <ul class="list-disc pl-5">
-                        <li>Cannon 700D</li>
-                        <li>With EF 18-55mm and EF S55-250mm lenses</li>
-                        <li>1 battery, 1 charger, 16 GB memory card, and camera bag</li>
-                    </ul>
-
-                    <h3 class="text-xl font-semibold mt-4 mb-2">Rate List</h3>
-                    <ul class="list-disc pl-5">
-                        <li>1 day – ₹1000</li>
-                        <li>3 days – ₹2500</li>
-                        <li>6 days – ₹4700</li>
-                        <li>7 or more days – ₹700 per day</li>
-                    </ul>
-
+                <div class="flex gap-2">
+                    <div>
+                        <img src="assets\img\DSLR Camera Available for Rent in Kanpur.jpeg" alt="DSLR Camera" class="w-full h-auto object-cover mb-4 rounded-lg">
+                    </div>
+    
+                    <div class="prose max-w-none text-gray-700">
+                        <p>Hello Kanpur residents! You can now rent a DSLR camera in Kanpur. Whether you're going out for a trip or having a wedding at home, a DSLR camera is available at very reasonable rates. This post will guide you on how to rent a DSLR camera in Kanpur.</p>
+    
+                        <h3 class="text-xl font-semibold mt-4 mb-2">DSLR Camera Rental Process in Kanpur</h3>
+                        <p>To rent a DSLR camera, call or WhatsApp +91 7753800444 and provide your requirements and booking dates. You will be informed about the camera's availability for your requested dates. After that, you need to pay an advance amount based on the number of days you book, which will confirm your reservation.</p>
+    
+                        
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Required Documents for Renting a DSLR in Kanpur</h3>
+                        <p>You need to present 2 original ID cards and sign a form to receive the camera. You can easily rent a DSLR camera for photo shoots or travel. Simply pay the rent, use the camera, and return it.</p>
+    
+                        <h3 class="text-xl font-semibold mt-4 mb-2">Camera Model</h3>
+                        <ul class="list-disc pl-5">
+                            <li>Cannon 700D</li>
+                            <li>With EF 18-55mm and EF S55-250mm lenses</li>
+                            <li>1 battery, 1 charger, 16 GB memory card, and camera bag</li>
+                        </ul>
+    
+                        <h3 class="text-xl font-semibold mt-4 mb-2">Rate List</h3>
+                        <ul class="list-disc pl-5">
+                            <li>1 day – ₹1000</li>
+                            <li>3 days – ₹2500</li>
+                            <li>6 days – ₹4700</li>
+                            <li>7 or more days – ₹700 per day</li>
+                        </ul>
                      <!-- Content Section -->
     <div class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md mt-6">
         <h1 class="text-3xl font-bold text-gray-800 mb-4">DSLR Camera Rental Information</h1>

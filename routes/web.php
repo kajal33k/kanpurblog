@@ -21,3 +21,4 @@ Route::get('/food', [HomeController::class, 'food'])->name('food');
 Route::get('/manchester', [HomeController::class, 'manchester'])->name('manchester');
 Route::get('/famous',[HomeController::class, 'famous'])->name('famous');
 Route::get('/college',[HomeController::class, 'college'])->name('college');
+Route::get('/about',[HomeController::class, 'about'])->name('about');

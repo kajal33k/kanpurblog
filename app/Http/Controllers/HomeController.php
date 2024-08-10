@@ -63,5 +63,8 @@ class HomeController extends Controller
         }
         public function college(){
             return view('front.college');
-            }    
+        }  
+    public function about(){
+        return view('front.about');
+    }      
 }

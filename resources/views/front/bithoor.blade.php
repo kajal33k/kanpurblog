@@ -1,9 +1,10 @@
 @extends('component.main')
 @section('content')
 
-
-    <!-- Main Content -->
-    <main class="container mx-auto p-6">
+<!-- Main Content -->
+<main class="container mx-auto p-6 flex flex-col lg:flex-row gap-6">
+    <!-- Main Content Section -->
+    <div class="flex-1">
         <!-- Interesting Facts About Bithoor -->
         <section id="famous-places" class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Interesting Facts About Bithoor</h2>
@@ -11,23 +12,25 @@
 
             <div class="mt-4">
                 <h3 class="text-xl font-semibold">Bithoor - A Historic and Sacred Place</h3>
-               
-                <div class="flex gap-4">
-                    <img src="assets\img\bithoor.png" alt="Brahmavart Ghat" class="w-full h-1/2 object-cover rounded-lg mb-4">
-                   </div>
+                <div class="flex gap-2">
+                    <div>
+                        <img src="assets/img/bithoor.png" alt="Brahmavart Ghat" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                    </div>
                     <div>
                         <p class="text-gray-700 mt-2">Bithoor, located just 17 km from Kanpur, is renowned as a city of religion, war, and sanctity. It is known as the penance site of Valmiki. The town is associated with several historical and religious events, including:</p>
-                    <ul class="list-disc pl-5 mt-2 text-gray-700">
-                        <li>Valmiki's penance and the birthplace of Lava and Kusha after Sita’s exile.</li>
-                        <li>Brahma’s penance and the creation of the world, with Brahmavart Ghat being a significant site.</li>
-                        <li>The first revolt of the Indian freedom struggle, which began here in 1857.</li>
-                        <li>Role in the First War of Indian Independence, with significant events and monuments.</li>
-                        <li>Swarg Ki Sidhi - a site related to revolutionary planning and resistance against colonial rule.</li>
-                        <li>321-acre cantonment area developed by the British for military purposes.</li>
-                    </ul>
+                        <ul class="list-disc pl-5 mt-2 text-gray-700">
+                            <li>Valmiki's penance and the birthplace of Lava and Kusha after Sita’s exile.</li>
+                            <li>Brahma’s penance and the creation of the world, with Brahmavart Ghat being a significant site.</li>
+                            <li>The first revolt of the Indian freedom struggle, which began here in 1857.</li>
+                            <li>Role in the First War of Indian Independence, with significant events and monuments.</li>
+                            <li>Swarg Ki Sidhi - a site related to revolutionary planning and resistance against colonial rule.</li>
+                            <li>321-acre cantonment area developed by the British for military purposes.</li>
+                        </ul>
                     </div>
+                </div>
             </div>
         </section>
+
         <div class="container mx-auto p-6">
             <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
                 <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Where Brahma Created the Universe</h2>
@@ -133,20 +136,28 @@
         </section>
     </div>
 
-        <!-- Other Sections -->
-        <section id="weather" class="bg-white rounded-lg shadow-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Kanpur Weather</h2>
-            <p class="text-gray-700">Details about the current weather in Kanpur will be provided here.</p>
-        </section>
+        <!-- Your other sections remain unchanged -->
+    </div>
 
-        <section id="contact" class="bg-white rounded-lg shadow-lg p-6">
-            <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Contact Us</h2>
-            <p class="text-gray-700">For inquiries, reach us at:</p>
-            <address class="text-gray-700 mt-2">
-                <p>Kanpur, Uttar Pradesh</p>
-                <p>+918299012292</p>
-                <p><a href="mailto:districtkanpur@gmail.com" class="text-red-600 hover:underline">districtkanpur@gmail.com</a></p>
-            </address>
-        </section>
-    </main>
+    <!-- Aside Section -->
+    <aside class="lg:w-1/4 bg-white rounded-lg shadow-lg p-6 mb-6 lg:mb-0">
+        <h3 class="text-xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Additional Information</h3>
+        <ul class="list-disc pl-5 text-gray-700">
+            <li><strong>Contact Number:</strong> 7753800444</li>
+            <li><strong>Address:</strong> Near Lucky Restaurant, Awadhpuri, Lakhanpur, Kaliyanpur, Kanpur</li>
+            <li>Best Software IT Company in Kanpur</li>
+            <li>DSLR Camera Rental Available in Kanpur</li>
+            <li>Interesting Fact: Bhitargaon Temple – A scientific curiosity, providing accurate monsoon information</li>
+            <li>Top 10 Engineering Colleges in Kanpur</li>
+            <li>Top 10 Richest Persons in Kanpur</li>
+        </ul>
+        <div class="flex space-x-4 mt-4">
+            <a href="#" class="text-gray-900 hover:text-red-600"><i class="ri-facebook-line"></i></a>
+            <a href="#" class="text-gray-900 hover:text-red-600"><i class="ri-twitter-line"></i></a>
+            <a href="#" class="text-gray-900 hover:text-red-600"><i class="ri-instagram-line"></i></a>
+            <a href="#" class="text-gray-900 hover:text-red-600"><i class="ri-linkedin-line"></i></a>
+        </div>
+    </aside>
+</main>
+
 @endsection
