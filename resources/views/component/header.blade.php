@@ -29,9 +29,9 @@
                             Services
                         </button>
                         <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg py-2">
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-900">Web Design</a>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-900">App Development</a>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-900">SEO</a>
+                            <a href="#" class="block px-4 py-2 text-gray-100 hover:bg-gray-900">Web Design</a>
+                            <a href="#" class="block px-4 py-2 text-gray-100 hover:bg-gray-900">App Development</a>
+                            <a href="#" class="block px-4 py-2 text-gray-100 hover:bg-gray-900">SEO</a>
                         </div>
                     </div>
                     <a href="#" class="py-5 px-3 text-gray-100 hover:text-gray-200">Contact</a>
@@ -65,24 +65,28 @@
         <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
     </div>
 </nav>
-
-<nav class="w-full bg-white text-black border">
+<!-- Navigation Bar with Marquee -->
+<nav class="w-full bg-white text-black border-b">
     <div class="flex items-center overflow-hidden">
-        <div class="flex px-8 py-2 bg-gray-300">
-            <i class="ri-radio-button-line text-red-600 text-2xl animate-flash"></i>
-            <h1 class="font-bold text-lg">Top Stories</h1>
+        <!-- Top Stories Section -->
+        <div class="flex items-center px-6 py-3 bg-gray-100">
+            <i class="ri-radio-button-line text-red-600 text-2xl animate-flash mr-2"></i>
+            <h1 class="font-semibold text-lg">Top Stories</h1>
         </div>
-        <div class="marquee flex-1 py-2">
-            <div class="marquee-content">
-                <ul class="flex gap-8">
-                    <li><p class="hover:underline hover:text-red-600">Best Software IT Company in Kanpur</p></li>
-                    <li><p class="hover:underline hover:text-red-600">Latest Technology Trends in 2024</p></li>
-                    <li><p class="hover:underline hover:text-red-600">How AI is Changing the World</p></li>
+        <!-- Marquee Section -->
+        <div class="flex-1 py-2 bg-gray-50 overflow-hidden">
+            <div class="marquee whitespace-nowrap">
+                <ul class="flex gap-8 animate-marquee">
+                    <li><p class="hover:underline hover:text-red-600 cursor-pointer">Best Software IT Company in Kanpur</p></li>
+                    <li><p class="hover:underline hover:text-red-600 cursor-pointer">Latest Technology Trends in 2024</p></li>
+                    <li><p class="hover:underline hover:text-red-600 cursor-pointer">How AI is Changing the World</p></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
+
+
 
 <script>
     const btn = document.querySelector("button.mobile-menu-button");
