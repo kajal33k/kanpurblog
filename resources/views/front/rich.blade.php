@@ -123,19 +123,19 @@
         <h3 class="text-xl font-semibold mb-4">Related Articles</h3>
         <ul class="space-y-4">
             <li>
-                <a href="#" class="text-red-600 hover:underline">The Impact of Prominent Figures on Kanpur</a>
+                <a href="{{Route('temple')}}" class="text-red-600 hover:underline">The Impact of Prominent Figures on Kanpur</a>
                 <p class="text-sm text-gray-600">An analysis of how these influential individuals have shaped the city's development.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">Top Influencers in Kanpur's Modern History</a>
+                <a href="{{Route('kanpurcentral')}}" class="text-red-600 hover:underline">Top Influencers in Kanpur's Modern History</a>
                 <p class="text-sm text-gray-600">A look at key figures who have made significant contributions in recent decades.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">The Legacy of Kanpur’s Most Notable Personalities</a>
+                <a href="{{Route('rich')}}" class="text-red-600 hover:underline">The Legacy of Kanpur’s Most Notable Personalities</a>
                 <p class="text-sm text-gray-600">Exploring the lasting impact of Kanpur's most prominent figures.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">Upcoming Events Celebrating Kanpur’s Leaders</a>
+                <a href="{{Route('rich')}}" class="text-red-600 hover:underline">Upcoming Events Celebrating Kanpur’s Leaders</a>
                 <p class="text-sm text-gray-600">Stay updated on events and ceremonies honoring Kanpur’s influential people.</p>
             </li>
         </ul>

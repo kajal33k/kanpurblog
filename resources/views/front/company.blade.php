@@ -169,19 +169,19 @@
         <h3 class="text-xl font-semibold mb-4">Related Articles</h3>
         <ul class="space-y-4">
             <li>
-                <a href="#" class="text-red-600 hover:underline">The Growth of IT Sector in Kanpur</a>
+                <a href="{{Route('iit')}}" class="text-red-600 hover:underline">The Growth of IT Sector in Kanpur</a>
                 <p class="text-sm text-gray-600">An in-depth look at how the IT sector is evolving in Kanpur.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">Top IT Startups to Watch in Kanpur</a>
+                <a href="{{Route('iit')}}" class="text-red-600 hover:underline">Top IT Startups to Watch in Kanpur</a>
                 <p class="text-sm text-gray-600">Explore the promising IT startups making waves in the city.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">How IT Companies are Shaping Kanpur's Economy</a>
+                <a href="{{Route('iit')}}" class="text-red-600 hover:underline">How IT Companies are Shaping Kanpur's Economy</a>
                 <p class="text-sm text-gray-600">Understanding the impact of IT companies on the local economy.</p>
             </li>
             <li>
-                <a href="#" class="text-red-600 hover:underline">Upcoming Tech Events in Kanpur</a>
+                <a href="{{Route('iit')}}" class="text-red-600 hover:underline">Upcoming Tech Events in Kanpur</a>
                 <p class="text-sm text-gray-600">Stay updated on the latest tech events happening in Kanpur.</p>
             </li>
         </ul>

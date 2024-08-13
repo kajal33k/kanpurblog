@@ -22,3 +22,9 @@ Route::get('/manchester', [HomeController::class, 'manchester'])->name('manchest
 Route::get('/famous',[HomeController::class, 'famous'])->name('famous');
 Route::get('/college',[HomeController::class, 'college'])->name('college');
 Route::get('/about',[HomeController::class, 'about'])->name('about');
+Route::get('/contact',[HomeController::class, 'contact'])->name('contact');
+Route::get('/webdesign',[HomeController::class, 'webdesign'])->name('webdesign');
+Route::get('/appdev',[HomeController::class, 'appdev'])->name('appdev');
+Route::get('/seo',[HomeController::class, 'seo'])->name('seo');
+Route::get('/ai',[HomeController::class, 'ai'])->name('ai');
+Route::get('/trend',[HomeController::class, 'trend'])->name('trend');

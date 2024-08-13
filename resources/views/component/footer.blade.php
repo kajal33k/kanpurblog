@@ -1,3 +1,9 @@
+<!-- Back to Top -->
+<a href="#" class="fixed bottom-4 right-4 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition duration-300 ease-in-out">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M5 15h14l-7-7-7 7z"/>
+    </svg>
+</a>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-10">

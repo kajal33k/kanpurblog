@@ -1,5 +1,6 @@
 @extends('component.main')
 @section('content')
+
 <main class="container mx-auto px-4 py-8">
     <nav class="bg-white shadow-md rounded-lg overflow-hidden mb-8">
         <ul class="flex justify-between">
@@ -12,7 +13,7 @@
                 </a>
             </li>
             <li class="flex-1 border-r border-gray-200">
-                <a href="#" class="block p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
+                <a href="{{Route('mainstories')}}" class="block p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
                     <div class="flex items-center">
                         <div class="w-1 h-8 bg-red-600 mr-4"></div>
                         <span class="font-bold lg:text-lg text-xs text-gray-800">Editor's Pick</span>
@@ -20,7 +21,7 @@
                 </a>
             </li>
             <li class="flex-1">
-                <a href="#" class="block p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
+                <a href="{{Route('mainstories')}}" class="block p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
                     <div class="flex items-center">
                         <div class="w-1 h-8 bg-red-600 mr-4"></div>
                         <span class="font-bold lg:text-lg text-xs text-gray-800">Trending Stories</span>
@@ -55,15 +56,16 @@
                 <div class="bg-white shadow-md rounded-lg p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-4">Trending Stories</h3>
                     <ul class="space-y-4">
-                        <li><a href="#" class="text-red-600 hover:underline">Kanpur University Announces New Courses</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">Local Restaurant Wins National Award</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">City Plans Major Infrastructure Upgrade</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">Kanpur's Green Initiative: 10,000 Trees Planted</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">New Food Street Opens in Civil Lines</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">Kanpur Metro: Construction Update</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">Green Park Stadium Renovation Complete</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline">Tech Startups Flourish in Kanpur</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Kanpur University Announces New Courses</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Local Restaurant Wins National Award</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">City Plans Major Infrastructure Upgrade</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Kanpur's Green Initiative: 10,000 Trees Planted</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">New Food Street Opens in Civil Lines</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Kanpur Metro: Construction Update</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Green Park Stadium Renovation Complete</a></li>
+                        <li><a href="{{Route('trend')}}" class="text-red-600 hover:underline">Tech Startups Flourish in Kanpur</a></li>
                     </ul>
+                    
                 </div>
             </div>
         </div>
@@ -356,7 +358,7 @@
 
 {{-- you may miss it --}}
 <div class="flex-1 border-r border-gray-200">
-    <a href="#" class="block lg:p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
+    <a href="{{Route('trend')}}" class="block lg:p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
         <div class="flex items-center">
             <div class="w-1 h-8 bg-red-600 mr-4"></div>
             <span class="font-bold text-lg text-gray-800">You May Be Miss It</span>
@@ -451,5 +453,23 @@
 </div>
 </main>
 
-
+<!-- Banner Start -->
+<div class="py-10 my-0 bg-slate-400">
+    <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-3xl font-bold mb-4 text-red-700">Newsers</h1>
+                <h2 class="text-2xl font-semibold mb-4">Get Every Weekly Updates</h2>
+                <p class="text-black mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+                <div class="relative mx-auto lg:mx-0 w-full lg:w-auto">
+                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Email">
+                    <button type="submit" class="absolute top-0 right-0 mt-1 mr-1 py-2 px-4 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none">Subscribe Now</button>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4">
+                <img src="assets\img\banner-img.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

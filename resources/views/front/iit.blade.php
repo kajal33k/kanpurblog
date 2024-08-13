@@ -77,7 +77,7 @@
         <!-- Contact Form Section -->
         <section class=" bg-white p-8 rounded-lg shadow-lg mb-8 border border-gray-200">
             <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Contact Us</h2>
-            <form action="#" method="post" class="space-y-4">
+            <form action="{{Route('temple')}}" method="post" class="space-y-4">
                 <div class="flex flex-col">
                     <label for="name" class="text-gray-700 text-lg font-medium">Name</label>
                     <input type="text" id="name" name="name" class="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500" required>
@@ -100,7 +100,7 @@
     
         <!-- Apply for Space Button -->
         <div class="text-center">
-            <a href="#" class="bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 transition duration-300">
+            <a href="{{Route('temple')}}" class="bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 transition duration-300">
                 Apply for Space
             </a>
         </div>
@@ -116,13 +116,13 @@
                 <h3 class="text-xl font-bold mb-4 text-gray-800">Recent Posts</h3>
                 <ul class="list-none">
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">The Pancha Maha Yagya</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">The Pancha Maha Yagya</a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">16 Divine Darshans of Unique Shivlingas</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">16 Divine Darshans of Unique Shivlingas</a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">Top 10 Tallest Statues of Hindu Gods in the World</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">Top 10 Tallest Statues of Hindu Gods in the World</a>
                     </li>
                 </ul>
             </div>
@@ -134,13 +134,13 @@
                 <h3 class="text-xl font-bold mb-4 text-gray-800">Categories</h3>
                 <ul class="list-none">
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">Devi Temple</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">Devi Temple</a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">Everyday Spiritual Activities</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">Everyday Spiritual Activities</a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-red-700 hover:underline">Gujarat</a>
+                        <a href="{{Route('temple')}}" class="text-red-700 hover:underline">Gujarat</a>
                     </li>
                 </ul>
             </div>

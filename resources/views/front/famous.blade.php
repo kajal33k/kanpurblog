@@ -16,7 +16,7 @@
         <main class="md:w-3/4 space-y-8">
 
             <!-- Place 1 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4" id="allen-forest-zoo">
                 <div>
                     <img src="assets/img/Allen Forest Zoo.png" alt="Allen Forest Zoo" class="w-full h-48 object-cover">
                 </div>
@@ -27,7 +27,7 @@
             </div>
 
             <!-- Place 2 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4" id="jk-temple">
                 <img src="assets/img/jk.png" alt="JK Temple" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold">2. JK Temple</h2>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Place 3 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4" id="kanpur-memorial-church">
                 <img src="assets/img/church.cms" alt="Kanpur Memorial Church" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold">3. Kanpur Memorial Church</h2>
@@ -44,7 +44,7 @@
                 </div>
             </div>
   <!-- Place 4 -->
-  <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4">
+  <div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4" id="moti-jheel">
     <img src="assets\img\Moti Jheel.png" alt="Moti Jheel" class="w-full h-48 object-cover">
     <div class="p-6">
         <h2 class="text-2xl font-bold">4. Moti Jheel</h2>
@@ -53,7 +53,7 @@
 </div>
 
 <!-- Place 5 -->
-<div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4">
+<div class="bg-white shadow-lg rounded-lg overflow-hidden flex gap-4" id="nana-rao-park">
     <img src="assets\img\nanarao.jpg" alt="Nana Rao Park" class="w-full h-48 object-cover">
     <div class="p-6">
         <h2 class="text-2xl font-bold">5. Nana Rao Park</h2>

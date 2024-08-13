@@ -66,5 +66,23 @@ class HomeController extends Controller
         }  
     public function about(){
         return view('front.about');
-    }      
+    } 
+    public function contact(){
+        return view('front.contact');
+    }  
+    public function webdesign(){
+        return view('front.webdesign');
+    }  
+    public function appdev(){
+        return view('front.appdev');
+    }  
+    public function seo(){
+        return view('front.seo');
+    } 
+    public function ai(){
+        return view('front.ai');
+    } 
+    public function trend(){
+        return view('front.trend');
+    } 
 }

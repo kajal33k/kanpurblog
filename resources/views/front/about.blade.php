@@ -1,115 +1,74 @@
 @extends('component.main')
 @section('content')
-<main class="container mx-auto">
-    <section class="relative rounded-lg shadow-md overflow-hidden mb-8">
-        <div class="w-full">
-            <img src="/assets/img/about.jpg" alt="Kanpur skyline" class="w-full h-full object-cover">
+{{-- <div class="relative w-full h-80 lg:h-screen overflow-hidden">
+    <!-- Slider Container -->
+    <div class="slider-container relative w-full h-80 lg:h-2/3 overflow-hidden">
+        <div class="slider flex transition-transform duration-700 ease-in-out w-full h-full">
+            <!-- Slide 1 -->
+            <div class="slide w-full flex-shrink-0 relative h-full">
+                <img src="assets/img/news1.jpg" class="w-full h-full object-cover" alt="Slide 1">
+                <div class="overlay absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <h2 class="text-white text-3xl md:text-5xl font-extrabold tracking-wide">About Us</h2>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide w-full flex-shrink-0 relative h-full">
+                <img src="assets/img/news2.jpg" class="w-full h-full object-cover" alt="Slide 2">
+                <div class="overlay absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <h2 class="text-white text-3xl md:text-5xl font-extrabold tracking-wide">About Us</h2>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide w-full flex-shrink-0 relative h-full">
+                <img src="assets/img/news3.jpg" class="w-full h-full object-cover" alt="Slide 3">
+                <div class="overlay absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <h2 class="text-white text-3xl md:text-5xl font-extrabold tracking-wide">About Us</h2>
+                </div>
+            </div>
         </div>
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
-        <div class="absolute inset-0 p-6 flex flex-col justify-end">
-            <h2 class="text-3xl font-bold mb-4 text-white">About Kanpur Chronicles</h2>
-            <p class="mb-4 text-white text-shadow">
-                Welcome to Kanpur Chronicles, your go-to source for all things Kanpur! We are passionate about sharing the rich culture, vibrant history, and exciting developments of our beloved city.
-            </p>
-            <p class="mb-4 text-white text-shadow">
-                <strong>And we haven't stopped since.</strong> Our content marketing strategies have grown this blog to reach over 4 Million+ readers each year. Today, we're also working on exciting side projects like RightBlogger and SmartWP.
-            </p>
-        </div>
-    </section>
-{{--     
     
-    <section class="relative rounded-lg shadow-md overflow-hidden mb-8">
-        <div class="relative">
-            <img src="/assets/img/about1.png" alt="Consulting experience illustration" class="w-full h-64 object-cover">
-            <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-            <div class="absolute inset-0 p-6 flex flex-col justify-end text-white">
-                <h3 class="text-2xl font-bold mb-4">Consulting Experience</h3>
-                <p class="mb-4">
-                    <strong>We've landed consulting deals with dozens of the world's top startups.</strong> Here are a few of the companies we've consulted on content marketing for.
-                </p>
-                {{-- <div class="flex flex-wrap gap-4 mt-4">
-                    <!-- Placeholder for company logos -->
-                    <!-- Replace these divs with actual company logos -->
-                    <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full"></div>
-                    <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full"></div>
-                    <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full"></div>
-                    <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full"></div>
-                {{-- </div> --}}
-            {{-- </div>
-        </div>
-    </section>
-    
-
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <h3 class="text-2xl font-bold text-gray-800 mb-4">The Side Hustle Project</h3>
-        <p class="text-gray-600 mb-4">
-            <strong>My podcast, The Side Hustle Project, has 130+ episodes and 400k+ listeners.</strong> Just a few of the guests who've come on the show to share their best advice & lessons learned.
-        </p>
-        <p class="text-gray-600 mb-4">
-            Exploring the nitty gritty details behind what it takes to start & grow a profitable side hustle through interviews, business challenges, hands-on tactics and proven strategies. If you want to start a podcast of your own, check out my picks for the best podcast hosting platforms to host your show this year.
-        </p>
-        <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">Listen Now</a>
-    </section>
-
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <h3 class="text-2xl font-bold text-gray-800 mb-4">Thank You</h3>
-        <p class="text-gray-600 mb-4">
-            <strong>If you've made it this far… thank you.</strong> Seriously, I deeply value every relationship I've been lucky enough to build from this blog. My strengths lie in teaching readers how to start a blog and grow a profitable side business. So if you're here for one of those two things, don't hesitate to reach out. If you're reading this right now and feeling that you'd really like to chat with me, shoot me an email at <a href="mailto:ryan@ryrob.com" class="text-blue-500 hover:underline">ryan@ryrob.com</a>, I'd love to hear from you. I mean it.
-        </p>
-        <p class="text-gray-600 mb-4">
-            If you're looking for something to read, start with my best content and dive deep today.
-        </p>
-        <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">Read My Best Content</a>
-    </section>
-
-    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <h3 class="text-2xl font-bold text-gray-800 mb-4">From the Blog</h3>
-        <ul class="list-disc list-inside text-gray-600">
-            <li>27 ChatGPT Prompts for Bloggers (Ideas, Outlines, Drafts, SEO, and More)</li>
-            <li>How to Write a Blog Post Outline in 8 Easy Steps (Free Blog Post Outline Template)</li>
-            <li>How to Edit a Blog Post: My Guide to Blog Editing & Proofreading (SEO)</li>
-            <li>How to Change Font Color in WordPress (on Your Blog) in 2024</li>
-        </ul>
-    </section> --}}
-
-    {{-- <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <section class="bg-white rounded-lg shadow-md p-6">
-            <h3 class="text-xl font-bold text-gray-800 mb-4">Free Blogging Tools</h3>
-            <ul class="list-disc list-inside text-gray-600">
-                <li>Keyword Tool</li>
-                <li>Article Writer</li>
-                <li>Title Generator</li>
-                <li>Domain Name Generator</li>
-                <li>Paragraph Rewriter</li>
-                <li>Blog Idea Generator</li>
-                <li>All Free Tools</li>
-            </ul>
-        </section>
-
-        <section class="bg-white rounded-lg shadow-md p-6">
-            <h3 class="text-xl font-bold text-gray-800 mb-4">Popular Posts</h3>
-            <ul class="list-disc list-inside text-gray-600">
-                <li>How to Start a Blog (Ultimate Guide)</li>
-                <li>How to Make Money Blogging This Year</li>
-                <li>Best Hosting Plans for Bloggers</li>
-                <li>101 Best Side Business Ideas</li>
-                <li>72 Genius Ways to Make Money Online</li>
-                <li>How to Start a Podcast (and Grow It)</li>
-                <li>Best Podcast Hosting (Free & Paid)</li>
-            </ul>
-        </section>
-
-        <section class="bg-white rounded-lg shadow-md p-6">
-            <h3 class="text-xl font-bold text-gray-800 mb-4">Work With Me</h3>
-            <ul class="list-disc list-inside text-gray-600">
-                <li>About Ryan</li>
-                <li>Contact (or Hire) Ryan</li>
-                <li>My Best Content</li>
-                <li>Everything About Blogging</li>
-                <li>Side Projects: RightBlogger, Not Not Business, 26 Tracks, Music to Blog to, SmartWP, Hike with Ryan, MightyShare, ColorKit</li>
-                <li>Built to Blog Online Course</li>
-            </ul> 
-        </section> --}}
+        <!-- Navigation Buttons -->
+        <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full shadow-lg transition duration-300">
+            &#10094;
+        </button>
+        <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-80 text-white p-3 rounded-full shadow-lg transition duration-300">
+            &#10095;
+        </button>
     </div>
-</main>
+</div> --}}
+
+<!-- About Us Section -->
+<div class="container mx-auto px-4 lg:px-8 py-12 lg:py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+        <div class="lg:order-2 flex flex-col justify-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">About Us</h1>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Real Victory Groups provides comprehensive IT solutions and services including Web Designing & Development, Website Maintenance, Mobile Application Design & Development, Search Engine Optimization, E-commerce Solutions, Google Adwords & PPC (Pay per click), Website Promotion, ERP Software, Domain & Hosting, and software development. Real Victory Groups is happy to offer you a wide range of business services to meet the immediate and future needs of organizations and institutions globally.
+            </p>
+        </div>
+        <div class="lg:order-1">
+            <img src="assets/img/aboutimg.webp" alt="About Us Image" class="object-cover h-full w-full rounded-lg shadow-lg">
+        </div>
+    </div>
+</div>
+ <!-- Banner Start -->
+ <div class="py-10 my-0 bg-slate-400">
+    <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-3xl font-bold mb-4 text-red-700">Newsers</h1>
+                <h2 class="text-2xl font-semibold mb-4">Get Every Weekly Updates</h2>
+                <p class="text-black mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+                <div class="relative mx-auto lg:mx-0 w-full lg:w-auto">
+                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Business Email">
+                    <button type="submit" class="absolute top-0 right-0 mt-1 mr-1 py-2 px-4 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none">Subscribe Now</button>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4">
+                <img src="assets\img\banner-img.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection

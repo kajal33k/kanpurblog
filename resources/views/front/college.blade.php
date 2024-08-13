@@ -14,7 +14,7 @@
         <main class="md:col-span-2 space-y-8">
 
             <!-- College 1 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-1">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">1. Indian Institute of Technology, Kanpur (IIT Kanpur)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -34,7 +34,7 @@
             </div>
         
             <!-- College 2 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-2">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">2. Harcourt Butler Technical University (HBTU)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -54,7 +54,7 @@
             </div>
         
             <!-- College 3 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-3">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">3. Institute of Engineering and Technology, Kanpur (IET Kanpur)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -74,7 +74,7 @@
             </div>
         
             <!-- College 4 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-4">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">4. University Institute of Engineering and Technology, CSJMU (UIET Kanpur)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -94,7 +94,7 @@
             </div>
         
             <!-- College 5 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-5">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">5. Dr. Ambedkar Institute of Technology for Handicapped (AITH)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -114,7 +114,7 @@
             </div>
         
             <!-- College 6 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-6">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">6. Kanpur Institute of Technology (KIT)</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -134,7 +134,7 @@
             </div>
         
             <!-- College 7 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden" id="college-7">
                 <div class="p-6">
                     <h2 class="text-2xl font-bold mb-4">7. Allenhouse Institute of Technology, Kanpur</h2>
                     <div class="flex flex-col md:flex-row gap-4">
@@ -221,13 +221,13 @@
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h2 class="text-xl font-bold mb-4">Quick Links</h2>
                 <ul class="space-y-2">
-                    <li><a href="#college-1" class="text-blue-500 hover:underline">IIT Kanpur</a></li>
-                    <li><a href="#college-2" class="text-blue-500 hover:underline">HBTU</a></li>
-                    <li><a href="#college-3" class="text-blue-500 hover:underline">IET Kanpur</a></li>
-                    <li><a href="#college-4" class="text-blue-500 hover:underline">UIET Kanpur</a></li>
-                    <li><a href="#college-5" class="text-blue-500 hover:underline">AITH</a></li>
-                    <li><a href="#college-6" class="text-blue-500 hover:underline">KIT</a></li>
-                    <li><a href="#college-7" class="text-blue-500 hover:underline">Allenhouse Institute of Technology</a></li>
+                    <li><a href="#college-1" class="text-red-500 hover:underline">IIT Kanpur</a></li>
+                    <li><a href="#college-2" class="text-red-500 hover:underline">HBTU</a></li>
+                    <li><a href="#college-3" class="text-red-500 hover:underline">IET Kanpur</a></li>
+                    <li><a href="#college-4" class="text-red-500 hover:underline">UIET Kanpur</a></li>
+                    <li><a href="#college-5" class="text-red-500 hover:underline">AITH</a></li>
+                    <li><a href="#college-6" class="text-red-500 hover:underline">KIT</a></li>
+                    <li><a href="#college-7" class="text-red-500 hover:underline">Allenhouse Institute of Technology</a></li>
                     <!-- Add more quick links as necessary -->
                 </ul>
             </div>

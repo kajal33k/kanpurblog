@@ -216,7 +216,7 @@
                         <li>Ashadhi Ekadashi</li>
                         <!-- Add more list items -->
                     </ul>
-                    <a href="#" class="inline-block mt-4 text-red-700 font-semibold hover:text-red-800 transition duration-300">Continue Reading</a>
+                    <a href="{{Route('temple')}}" class="inline-block mt-4 text-red-700 font-semibold hover:text-red-800 transition duration-300">Continue Reading</a>
                 </div>
             </div>
 
@@ -226,10 +226,10 @@
                     <h3 class="text-xl font-bold mb-4 text-gray-800">Recent Posts</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">The Pancha Maha Yagya</a>
+                            <a href="{{Route('temple')}}" class="text-red-700 hover:text-red-800 transition duration-300">The Pancha Maha Yagya</a>
                         </li>
                         <li>
-                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">16 Divine Darshans of Unique Shivlingas</a>
+                            <a href="{{Route('temple')}}" class="text-red-700 hover:text-red-800 transition duration-300">16 Divine Darshans of Unique Shivlingas</a>
                         </li>
                         <!-- Add more recent posts -->
                     </ul>
@@ -242,10 +242,10 @@
                     <h3 class="text-xl font-bold mb-4 text-gray-800">Categories</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">Devi Temple</a>
+                            <a href="{{Route('temple')}}" class="text-red-700 hover:text-red-800 transition duration-300">Devi Temple</a>
                         </li>
                         <li>
-                            <a href="#" class="text-red-700 hover:text-red-800 transition duration-300">Everyday Spiritual Activities</a>
+                            <a href="{{Route('temple')}}" class="text-red-700 hover:text-red-800 transition duration-300">Everyday Spiritual Activities</a>
                         </li>
                         <!-- Add more categories -->
                     </ul>
