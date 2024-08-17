@@ -28,3 +28,5 @@ Route::get('/appdev',[HomeController::class, 'appdev'])->name('appdev');
 Route::get('/seo',[HomeController::class, 'seo'])->name('seo');
 Route::get('/ai',[HomeController::class, 'ai'])->name('ai');
 Route::get('/trend',[HomeController::class, 'trend'])->name('trend');
+Route::get('/login',[HomeController::class, 'login'])->name('login');
+Route::get('/signup',[HomeController::class, 'signup'])->name('signup');

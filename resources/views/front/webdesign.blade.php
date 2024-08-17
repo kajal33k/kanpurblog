@@ -9,7 +9,7 @@
                 <img src="assets\img\websit.avif" alt="App Development" class="object-cover w-full h-full">
             </div>
             <div class="absolute inset-0 bg-black opacity-70"></div>
-            <div class="relative z-10 container mx-auto px-4 text-center text-white">
+            <div class="relative z-10 container  px-4 text-center text-white">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6">About Web Design</h2>
                 <p class="text-lg md:text-xl mb-8">At Real Victory Groups, we specialize in creating stunning, functional websites for businesses in Kanpur and beyond. Our web design services are tailored to meet the unique needs of each client, ensuring a digital presence that stands out in today's competitive online landscape.s</p>
                 <a href="#" class="bg-white text-red-700 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Get Started</a>
@@ -17,7 +17,7 @@
         </section>
         
 
-        <section class="grid md:grid-cols-2 gap-8 mb-12">
+        <section class="grid md:grid-cols-2 gap-8 mb-12 mt-2">
             <div class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-2xl font-semibold mb-4 text-red-600">Our Approach</h3>
                 <p>We combine creativity with technical expertise to deliver websites that not only look great but also perform exceptionally. Our design process focuses on user experience, responsive layouts, and SEO-friendly structures.</p>

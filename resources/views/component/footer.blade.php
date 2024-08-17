@@ -61,7 +61,7 @@
             </div>
 
             <div class="mt-8 text-center text-gray-400 text-sm ">
-                &copy; 2024 Kanpur Unique and Famous Places. All rights reserved.
+                &copy; 2024 Real Victory Groups. All rights reserved.
             </div>
         </div>
     </footer>

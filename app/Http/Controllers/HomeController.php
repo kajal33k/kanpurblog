@@ -85,4 +85,10 @@ class HomeController extends Controller
     public function trend(){
         return view('front.trend');
     } 
+    public function login(){
+        return view('front.login');
+    } 
+    public function signup(){
+        return view('front.signup');
+    }
 }

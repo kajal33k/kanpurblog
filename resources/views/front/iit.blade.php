@@ -14,7 +14,7 @@
         <!-- About Section -->
         <section id="about" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
             <h2 class="text-3xl font-extrabold mb-6 text-gray-900">About Kanpur Innovation Hub</h2>
-            <div class="flex gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 
                 <div>
                     

@@ -7,9 +7,9 @@
             <article class="bg-white p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-bold mb-2 text-gray-800">DSLR Camera Available for Rent in Kanpur</h2>
                 <p class="text-gray-600 mb-4">20/04/2022 by Ravi Pandey</p>
-                <div class="flex gap-2">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div>
-                        <img src="assets\img\DSLR Camera Available for Rent in Kanpur.jpeg" alt="DSLR Camera" class="w-full h-auto object-cover mb-4 rounded-lg">
+                        <img src="assets\img\dslr.jpg" alt="DSLR Camera" class="w-full h-auto object-cover mb-4 rounded-lg">
                     </div>
     
                     <div class="prose max-w-none text-gray-700">
@@ -93,7 +93,7 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Related post items -->
 <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
-<img src="assets\img\कानपुर का ‘जादुई’ मंदिर वैज्ञानिकों के लिए कौतूहल.png" alt="Bhitargaon Temple" class="w-full h-40 object-cover">
+<img src="assets\img\bitargaotemple.jpg" alt="Bhitargaon Temple" class="w-full h-40 object-cover">
 <div class="p-4">
 <h4 class="text-lg font-semibold mb-2">Bhitargaon Temple – A Scientific Curiosity</h4>
 <p class="text-gray-600 text-sm mb-2">15/06/2021 by Ravi Pandey</p>
@@ -119,7 +119,7 @@
 </div>
 </div>
 <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
-<img src="assets\img\DSLR Camera Available for Rent in Kanpur.png" alt="DSLR Camera Available for Rent in Kanpur" class="w-full h-48 object-cover">
+<img src="assets\img\dslr.jpg" alt="DSLR Camera Available for Rent in Kanpur" class="w-full h-48 object-cover">
 <div class="p-4">
 <h3 class="text-xl font-semibold text-gray-800 mb-2">DSLR Camera Available for Rent in Kanpur</h3>
 <p class="text-gray-600 text-sm mb-2">20/04/2022 by Ravi Pandey</p>

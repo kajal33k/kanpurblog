@@ -73,7 +73,7 @@
         <section class="mb-16">
             <h3 class="text-3xl font-semibold mb-8 text-red-600 text-center">Why Choose Our SEO Services?</h3>
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:bg-red-200">
                     <h4 class="text-xl font-semibold mb-4 text-red-600">Data-Driven Approach</h4>
                     <p>We base our strategies on comprehensive data analysis and industry best practices.</p>
                 </div>
@@ -120,7 +120,7 @@
                 <div class="w-full md:w-1/2 lg:w-1/4 p-4 text-center">
                     <div class="bg-white p-6 rounded-lg shadow-md  hover:bg-red-300">
                         <span class="text-2xl font-bold text-red-500">04</span>
-                        <h5 class="text-xl font-semibold my-3">Monitoring & Refinement</h5>
+                        <h5 class="text-xl font-semibold my-3">Monitoring</h5>
                         <p>We continuously monitor results and refine our approach for optimal outcomes.</p>
                     </div>
                 </div>

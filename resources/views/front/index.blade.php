@@ -1,8 +1,8 @@
 @extends('component.main')
 @section('content')
 
-<main class="container mx-auto px-4 py-8">
-    <nav class="bg-white shadow-md rounded-lg overflow-hidden mb-8">
+<main class="container mx-auto px-4 lg:py-8 py-0">
+    <nav class="bg-white shadow-md rounded-lg overflow-hidden mb-1">
         <ul class="flex justify-between">
             <li class="flex-1 border-r border-gray-200">
                 <a href="{{Route('mainstories')}}" class="block p-4 hover:bg-gray-50 transition duration-150 ease-in-out">
@@ -31,14 +31,14 @@
         </ul>
     </nav>
     {{-- blogs --}}
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 lg:py-8 mt-2">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Breaking News</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Main content area -->
             <div class="md:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-2">
                 <article class="bg-white shadow-md rounded-lg p-6">
                     <h2 class="text-2xl font-bold text-gray-800 mb-4">Breaking: New Tech Park Opens in Kanpur</h2>
-                    <img src="assets/img/2.png" alt="Tech Park" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <img src="assets\img\breaking news.jpg" alt="Tech Park" class="w-full h-64 object-cover rounded-lg mb-4">
                     <p class="text-gray-600 mb-4">Kanpur's technology sector gets a boost with the opening of a state-of-the-art tech park, expected to create thousands of jobs. This development marks a significant milestone in the city's growth as a tech hub.</p>
                     <a href="{{Route('iit')}}" class="text-red-600 hover:underline font-semibold">Read more</a>
                 </article>
@@ -70,7 +70,7 @@
             </div>
         </div>
       {{-- temples --}}
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 lg:py-8">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Unique and Historical Temples of Kanpur</h2>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -157,7 +157,7 @@
     </div>
     </div>
 
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 lg:py-8">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Leading IT Companies in Kanpur</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -354,7 +354,7 @@
                     <a href="{{Route('rich')}}" class="text-red-600 hover:underline mt-2 inline-block">Learn more</a>
                 </div>
             </div>
-        </div>
+</div>
 
 {{-- you may miss it --}}
 <div class="flex-1 border-r border-gray-200">
@@ -415,7 +415,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="assets\img\DSLR Camera Available for Rent in Kanpur.jpeg" alt="Uday Jayant Desai" class="w-full h-48 object-cover">
+            <img src="assets\img\dslr.jpg" alt="Uday Jayant Desai" class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">DSLR Camera Available for Rent in Kanpur</h3>
                 <p class="text-gray-600 text-sm mb-2">20/04/2022 by Ravi Pandey</p>
@@ -424,7 +424,7 @@
         </div>
 
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="assets\img\कानपुर का ‘जादुई’ मंदिर वैज्ञानिकों के लिए कौतूहल.png" alt="Person 2" class="w-full h-48 object-cover">
+            <img src="assets\img\bitargaotemple.jpg" alt="Person 2" class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">कानपुर का ‘जादुई’ मंदिर वैज्ञानिकों के लिए कौतूहल</h3>
                 <p class="text-gray-600 text-sm mb-2">15/06/2021 by Ravi Pandey</p>
@@ -467,7 +467,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4">
-                <img src="assets\img\banner-img.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
+                <img src="assets\img\blog.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
             </div>
         </div>
     </div>

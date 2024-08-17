@@ -36,6 +36,14 @@
         </button>
     </div>
 </div> --}}
+<div class="relative">
+    <img src="assets/img/aboutt.jpeg" alt="About Image" class="w-full h-64 object-cover rounded-lg">
+    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+        <p class="text-white text-2xl font-semibold p-4">
+            About Us
+        </p>
+    </div>
+</div>
 
 <!-- About Us Section -->
 <div class="container mx-auto px-4 lg:px-8 py-12 lg:py-24">
@@ -60,12 +68,12 @@
                 <h2 class="text-2xl font-semibold mb-4">Get Every Weekly Updates</h2>
                 <p class="text-black mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
                 <div class="relative mx-auto lg:mx-0 w-full lg:w-auto">
-                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Business Email">
+                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Email">
                     <button type="submit" class="absolute top-0 right-0 mt-1 mr-1 py-2 px-4 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none">Subscribe Now</button>
                 </div>
             </div>
             <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4">
-                <img src="assets\img\banner-img.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
+                <img src="assets\img\blog.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
             </div>
         </div>
     </div>
