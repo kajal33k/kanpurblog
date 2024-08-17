@@ -1,7 +1,7 @@
 @extends('component.main')
 @section('content')
 
-<main class="container  px-4 lg:py-8 py-0">
+<main class="container m-auto  px-4 lg:py-8 py-0">
     <nav class="bg-white shadow-md rounded-lg overflow-hidden mb-1">
         <ul class="flex justify-between">
             <li class="flex-1 border-r border-gray-200">
