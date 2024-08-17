@@ -135,9 +135,26 @@
 
                 <!-- Secondary Nav -->
                 <div class="hidden md:flex items-center space-x-2">
-                    <a href="#" class="text-white hover:text-gray-200 focus:outline-none">
-                        <i class="ri-search-line font-bold"></i>
-                    </a>
+                    <div class="relative">
+                        <a href="#" class="text-white hover:text-gray-200 focus:outline-none" id="search-icon">
+                            <i class="ri-search-line font-bold"></i>
+                        </a>
+                        <input type="text" id="search-input" placeholder="Search..." 
+                               class="absolute top-0 right-0 hidden h-10 px-4 py-2 bg-white text-black rounded-full focus:outline-none shadow-lg transition-all duration-300 ease-in-out" />
+                    </div>
+<script>
+    document.getElementById('search-icon').addEventListener('click', function(event) {
+    event.preventDefault();
+    const searchInput = document.getElementById('search-input');
+    if (searchInput.classList.contains('hidden')) {
+        searchInput.classList.remove('hidden');
+        searchInput.classList.add('w-64', 'opacity-100'); // Expand the input
+    } else {
+        searchInput.classList.add('hidden');
+        searchInput.classList.remove('w-64', 'opacity-100'); // Collapse the input
+    }
+});
+</script>                    
                     <a href="{{Route('login')}}"
                         class="py-2 px-3 bg-red-50 text-black rounded hover:bg-red-400 transition duration-300 focus:outline-none focus:ring focus:ring-red-200">Login</a>
                     <a href="{{Route('signup')}}"

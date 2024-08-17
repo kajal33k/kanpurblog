@@ -1,20 +1,20 @@
 @extends('component.main')
 @section('content')
 
-
+<section class="relative py-20">
+    <div class="absolute inset-0">
+        <img src="assets\img\websit.avif" alt="App Development" class="object-cover w-full h-full">
+    </div>
+    <div class="absolute inset-0 bg-black opacity-70"></div>
+    <div class="relative z-10 container  px-4 text-center text-white">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">About Web Design</h2>
+        <p class="text-lg md:text-xl mb-8">At Real Victory Groups, we specialize in creating stunning, functional websites for businesses in Kanpur and beyond. Our web design services are tailored to meet the unique needs of each client, ensuring a digital presence that stands out in today's competitive online landscape.s</p>
+        <a href="#" class="bg-white text-red-700 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Get Started</a>
+    </div>
+</section>
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-        <section class="relative py-20">
-            <div class="absolute inset-0">
-                <img src="assets\img\websit.avif" alt="App Development" class="object-cover w-full h-full">
-            </div>
-            <div class="absolute inset-0 bg-black opacity-70"></div>
-            <div class="relative z-10 container  px-4 text-center text-white">
-                <h2 class="text-4xl md:text-5xl font-bold mb-6">About Web Design</h2>
-                <p class="text-lg md:text-xl mb-8">At Real Victory Groups, we specialize in creating stunning, functional websites for businesses in Kanpur and beyond. Our web design services are tailored to meet the unique needs of each client, ensuring a digital presence that stands out in today's competitive online landscape.s</p>
-                <a href="#" class="bg-white text-red-700 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Get Started</a>
-            </div>
-        </section>
+
         
 
         <section class="grid md:grid-cols-2 gap-8 mb-12 mt-2">

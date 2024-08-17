@@ -91,13 +91,13 @@
             </div>
         </section>
 
+
+    </main>
         <!-- Call to Action -->
         <section class="bg-red-600 text-white py-12 px-4 rounded-lg text-center">
             <h3 class="text-3xl font-bold mb-4">Stay Ahead of the Curve</h3>
             <p class="mb-8 text-lg">Want to learn more about how these technologies can benefit your business? Let's connect!</p>
             <a href="#" class="bg-white text-red-600 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Contact Us Today</a>
         </section>
-    </main>
-
     
 @endsection

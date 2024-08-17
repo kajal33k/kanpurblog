@@ -25,7 +25,7 @@
                             <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" name="phone" placeholder="Enter Your Phone">
                             <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" name="subject" placeholder="Subject">
                             <textarea class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" rows="6" placeholder="Your Message"></textarea>
-                            <button class="w-full h-1/3 bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition duration-200" type="submit">Submit Now</button>
+                            <button class="w-full  bg-red-600 text-white p-4 rounded-lg hover:bg-red-700 transition duration-200" type="submit">Submit Now</button>
                         </div>
                     </form>
                     

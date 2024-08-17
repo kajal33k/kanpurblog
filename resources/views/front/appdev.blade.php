@@ -94,11 +94,13 @@
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="bg-red-600 text-white py-12 px-4 w-full rounded-lg text-center">
-        <h3 class="text-3xl font-bold mb-4">Ready to Build Your Next App?</h3>
-        <p class="mb-8 text-lg">Let's turn your vision into reality. Contact us today to start your app development journey.</p>
-        <a href="#" class="bg-white text-red-600 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Get in Touch</a>
-    </section>
+ 
 </main>
+
+   <!-- Call to Action -->
+   <section class="bg-red-600 text-white py-12 px-4 w-full rounded-lg text-center">
+    <h3 class="text-3xl font-bold mb-4">Ready to Build Your Next App?</h3>
+    <p class="mb-8 text-lg">Let's turn your vision into reality. Contact us today to start your app development journey.</p>
+    <a href="#" class="bg-white text-red-600 py-3 px-8 rounded-full font-semibold hover:bg-red-100 transition duration-300">Get in Touch</a>
+</section>
 @endsection

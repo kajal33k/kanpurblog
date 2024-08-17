@@ -98,12 +98,7 @@
             </form>
         </section>
     
-        <!-- Apply for Space Button -->
-        <div class="text-center">
-            <a href="{{Route('temple')}}" class="bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 transition duration-300">
-                Apply for Space
-            </a>
-        </div>
+       
     </div>
     
     
