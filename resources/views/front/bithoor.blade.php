@@ -12,9 +12,9 @@
 
             <div class="mt-4">
                 <h3 class="text-xl font-semibold">Bithoor - A Historic and Sacred Place</h3>
-                <div class="flex gap-2">
+                <div class="grid grid-cols-1 lg:grid-cols-2  gap-2">
                     <div>
-                        <img src="assets/img/bithoor.png" alt="Brahmavart Ghat" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                        <img src="assets/img/bithoor.png" alt="Brahmavart Ghat" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                     </div>
                     <div>
                         <p class="text-gray-700 mt-2">Bithoor, located just 17 km from Kanpur, is renowned as a city of religion, war, and sanctity. It is known as the penance site of Valmiki. The town is associated with several historical and religious events, including:</p>
@@ -34,9 +34,9 @@
         <div class="container mx-auto p-6">
             <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
                 <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Where Brahma Created the Universe</h2>
-             <div class="flex gap-4">
+             <div class="grid grid-cols-1 lg:grid-cols-2  gap-4">
                 <div>
-                    <img src="assets\img\bithoor2.png" alt="Brahmavart Ghat" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                    <img src="assets\img\bithoor2.png" alt="Brahmavart Ghat" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                   </div>
                     <div>
                         <p class="text-gray-700">
@@ -53,9 +53,9 @@
     <div class="container mx-auto p-6">
         <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Where the First Flames of Rebellion Ignited</h2>
-           <div class="flex gap-4">
+           <div class="grid grid-cols-1 lg:grid-cols-2  gap-4">
             <div>
-                <img src="assets\img\bithoor3.png" alt="Swatantrata Sangram" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                <img src="assets\img\bithoor3.png" alt="Swatantrata Sangram" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                </div>
                 <div>
                     <p class="text-gray-700">
@@ -71,9 +71,9 @@
     <div class="container mx-auto p-6">
         <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Role of Bithoor in the Revolt of 1857</h2>
-           <div class="flex gap-4">
+           <div class="grid grid-cols-1 lg:grid-cols-2  gap-4">
             <div>
-                <img src="assets\img\Revolt.png" alt="Gadar in Bithoor" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                <img src="assets\img\Revolt.png" alt="Gadar in Bithoor" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                </div>
                 <div>
                     <p class="text-gray-700">
@@ -90,9 +90,9 @@
     <div class="container mx-auto p-6">
         <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Swarg Ki Sidhi in Bithoor</h2>
-           <div class="flex gap-4">
+           <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div>
-                <img src="assets\img\bithoor4.png" alt="Swarg Ki Sidhi" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                <img src="assets\img\bithoor4.png" alt="Swarg Ki Sidhi" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                </div>
                 <div>
                     <p class="text-gray-700">
@@ -108,9 +108,9 @@
     <div class="container mx-auto p-6">
         <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Bithoor Cantonment Area</h2>
-            <div class="flex gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
-                    <img src="assets\img\bithoor5.png" alt="Bithoor Cantonment" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                    <img src="assets\img\bithoor5.png" alt="Bithoor Cantonment" class="w-full  lg:h-1/2 object-cover rounded-lg mb-4">
                 </div>
                <div>
                 <p class="text-gray-700">
@@ -123,9 +123,9 @@
     <div class="container mx-auto p-6">
         <section class="bg-white rounded-lg shadow-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Pratiracha Karkhana in Nana Rao's Fort</h2>
-           <div class="flex gap-4">
+           <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div>
-                <img src="assets\img\bithoor6.png" alt="Pratiracha Karkhana" class="w-full h-1/2 object-cover rounded-lg mb-4">
+                <img src="assets\img\bithoor6.png" alt="Pratiracha Karkhana" class="w-full lg:h-1/2 object-cover rounded-lg mb-4">
                </div>
                 <div>
                     <p class="text-gray-700">

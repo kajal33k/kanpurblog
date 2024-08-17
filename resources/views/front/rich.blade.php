@@ -12,7 +12,7 @@
 <!-- Main Content -->
 <main class="container mx-auto px-4 py-8 flex flex-wrap lg:flex-nowrap">
     <!-- Main Content Area -->
-    <div class="flex-1 mr-8">
+    <div class="flex lg:mr-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Person 1 -->

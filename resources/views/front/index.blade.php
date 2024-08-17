@@ -1,7 +1,7 @@
 @extends('component.main')
 @section('content')
 
-<main class="container mx-auto px-4 lg:py-8 py-0">
+<main class="container  px-4 lg:py-8 py-0">
     <nav class="bg-white shadow-md rounded-lg overflow-hidden mb-1">
         <ul class="flex justify-between">
             <li class="flex-1 border-r border-gray-200">
@@ -31,14 +31,14 @@
         </ul>
     </nav>
     {{-- blogs --}}
-    <div class="container mx-auto px-4 lg:py-8 mt-2">
+    <div class="container mx-auto px-2 lg:py-8 mt-2">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Breaking News</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Main content area -->
             <div class="md:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-2">
                 <article class="bg-white shadow-md rounded-lg p-6">
                     <h2 class="text-2xl font-bold text-gray-800 mb-4">Breaking: New Tech Park Opens in Kanpur</h2>
-                    <img src="assets\img\breaking news.jpg" alt="Tech Park" class="w-full h-64 object-cover rounded-lg mb-4">
+                    <img src="assets/img/2.png" alt="Tech Park" class="w-full h-64 object-cover rounded-lg mb-4">
                     <p class="text-gray-600 mb-4">Kanpur's technology sector gets a boost with the opening of a state-of-the-art tech park, expected to create thousands of jobs. This development marks a significant milestone in the city's growth as a tech hub.</p>
                     <a href="{{Route('iit')}}" class="text-red-600 hover:underline font-semibold">Read more</a>
                 </article>
@@ -70,7 +70,7 @@
             </div>
         </div>
       {{-- temples --}}
-    <div class="container mx-auto px-4 lg:py-8">
+    <div class="container lg:py-8">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Unique and Historical Temples of Kanpur</h2>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -313,13 +313,13 @@
     </div>
 {{-- top richest persons in kanpur--}}
 
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-2 py-8">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Top Richest Individuals in Kanpur</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
                 <img src="assets\img\Murlidhar Gyanchandani.png" alt="Person 1" class="w-full h-48 object-cover">
-                <div class="p-4">
+                <div class="p-2">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Murlidhar Gyanchandani</h3>
                     <p class="text-gray-600 text-sm">Murlidhar Gyanchandani is one of the most successful entrepreneurs of India. </p>
                     <a href="{{Route('rich')}}" class="text-red-600 hover:underline mt-2 inline-block">Learn more</a>
@@ -329,7 +329,7 @@
 
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
                 <img src="assets\img\Yadupati Singhaniya.png" alt="Person 2" class="w-full h-48 object-cover">
-                <div class="p-4">
+                <div class="p-2">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Yadupati Singhaniya</h3>
                     <p class="text-gray-600 text-sm">Mr. Yadupati Singhania is the Late Chairman & Managing Director of JK Cement and also played an important role in evolution of cement in India.</p>
                     <a href="{{Route('rich')}}" class="text-red-600 hover:underline mt-2 inline-block">Learn more</a>
@@ -338,7 +338,7 @@
 
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
                 <img src="assets\img\Bimal Kumar Gyanchandani.png" alt="Person 3" class="w-full h-48 object-cover">
-                <div class="p-4">
+                <div class="p-2">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Bimal Kumar Gyanchandani</h3>
                     <p class="text-gray-600 text-sm">Low profile brothers Murli Dhar and Bimal Gyanchandani control family's Kanpur-headquartered consumer goods firm RSPL Group.</p>
                     <a href="{{Route('rich')}}" class="text-red-600 hover:underline mt-2 inline-block">Learn more</a>
@@ -347,7 +347,7 @@
 
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
                 <img src="assets\img\_Uday Jayant Desai.png" alt="Person 4" class="w-full h-48 object-cover">
-                <div class="p-4">
+                <div class="p-2">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2"> Uday Jayant Desai</h3>
                     <p class="text-gray-600 text-sm">
                         Uday Jayant Desai who is also known as Udai J. Desai. He is the Chairman and Managing Director of Frost International Limited.</p>
@@ -410,7 +410,7 @@
     </div>
 </div>
   
-<div class="container mx-auto px-4 py-8">
+<div class="container py-8">
     <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Top Stories</h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">

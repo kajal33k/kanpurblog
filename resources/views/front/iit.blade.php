@@ -35,7 +35,7 @@
         <!-- Features Section -->
         <section id="features" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
             <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Key Features</h2>
-            <div class="flex gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
                     <img src="assets/img/3 (1).png" alt="Features" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200">
                 </div>
@@ -55,7 +55,7 @@
         <!-- Companies Section -->
         <section id="companies" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
             <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Companies at Kanpur Innovation Hub</h2>
-            <div class="flex gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
                     <img src="assets/img/4.png" alt="Companies" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200">
                 </div>

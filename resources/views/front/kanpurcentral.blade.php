@@ -10,7 +10,7 @@
             <!-- Kanpur Central Facts -->
             <section id="famous-places" class="bg-white rounded-lg shadow-lg p-6 mb-6">
                 <h2 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Interesting and Unknown Facts About Kanpur Central</h2>
-                <div class="flex gap-2">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
                     <div class="mt-8">
                         <img src="assets/img/central.webp" alt="" class="w-full h-full object-cover">
                     </div>
