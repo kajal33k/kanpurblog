@@ -1,9 +1,9 @@
 @extends('component.main')
 @section('content')
-<header class="bg-red-700 text-white py-6">
-    <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold text-center">Kanpur Innovation Hub</h1>
-        <p class="mt-2 text-center">Empowering Technological Advancements in Uttar Pradesh</p>
+<header class="bg-red-700 text-white py-6" data-aos="fade-up">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+        <h1 class="text-3xl font-bold text-center" data-aos="fade-up">Kanpur Innovation Hub</h1>
+        <p class="mt-2 text-center" data-aos="fade-up">Empowering Technological Advancements in Uttar Pradesh</p>
     </div>
 </header>
 
@@ -12,20 +12,20 @@
     <!-- Main Content -->
     <div class="w-full md:w-2/3 pr-0 md:pr-6 mb-8 md:mb-0">
         <!-- About Section -->
-        <section id="about" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
-            <h2 class="text-3xl font-extrabold mb-6 text-gray-900">About Kanpur Innovation Hub</h2>
+        <section id="about" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold mb-6 text-gray-900" data-aos="fade-up">About Kanpur Innovation Hub</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 
                 <div>
                     
-                <img src="assets/img/2.png" alt="Kanpur Innovation Hub" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200">
+                <img src="assets/img/2.png" alt="Kanpur Innovation Hub" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200" data-aos="fade-up">
                 
                 </div>
                 <div>
-                    <p class="mb-4 text-lg text-gray-800 leading-relaxed">
+                    <p class="mb-4 text-lg text-gray-800 leading-relaxed" data-aos="fade-up">
                         Kanpur Innovation Hub is a state-of-the-art tech park that has recently opened its doors in the heart of Kanpur, Uttar Pradesh. This cutting-edge facility aims to foster innovation, support startups, and attract established tech companies to the region.
                     </p>
-                    <p class="text-lg text-gray-800 leading-relaxed">
+                    <p class="text-lg text-gray-800 leading-relaxed" data-aos="fade-up">
                         Spanning over 50 acres, the tech park provides a collaborative environment for entrepreneurs, researchers, and industry leaders to come together and drive technological advancements.
                     </p>
                 </div>
@@ -33,14 +33,14 @@
         </section>
     
         <!-- Features Section -->
-        <section id="features" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
-            <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Key Features</h2>
+        <section id="features" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold mb-6 text-gray-900" data-aos="fade-up">Key Features</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
-                    <img src="assets/img/3 (1).png" alt="Features" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200">
+                    <img src="assets/img/3 (1).png" alt="Features" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200" data-aos="fade-up">
                 </div>
                 <div>
-                    <ul class="list-disc pl-6 space-y-2 text-lg text-gray-800">
+                    <ul class="list-disc pl-6 space-y-2 text-lg text-gray-800" data-aos="fade-up">
                         <li>Modern office spaces and co-working areas</li>
                         <li>High-speed internet and advanced telecommunications infrastructure</li>
                         <li>Research and development laboratories</li>
@@ -53,17 +53,17 @@
         </section>
     
         <!-- Companies Section -->
-        <section id="companies" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden">
-            <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Companies at Kanpur Innovation Hub</h2>
+        <section id="companies" class="mb-12 p-4 bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold mb-6 text-gray-900" data-aos="fade-up">Companies at Kanpur Innovation Hub</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div>
-                    <img src="assets/img/4.png" alt="Companies" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200">
+                    <img src="assets/img/4.png" alt="Companies" class="w-full h-auto rounded-lg shadow-lg mb-6 border border-gray-200" data-aos="fade-up">
                 </div>
                 <div>
-                    <p class="mb-4 text-lg text-gray-800 leading-relaxed">
+                    <p class="mb-4 text-lg text-gray-800 leading-relaxed" data-aos="fade-up">
                         The tech park has already attracted a diverse range of companies, from promising startups to established tech giants. Some of the companies that have set up their offices in the Kanpur Innovation Hub include:
                     </p>
-                    <ul class="list-disc pl-6 space-y-2 text-lg text-gray-800">
+                    <ul class="list-disc pl-6 space-y-2 text-lg text-gray-800" data-aos="fade-up">
                         <li>TechInnovate Solutions</li>
                         <li>Kanpur AI Labs</li>
                         <li>GreenTech Enterprises</li>
@@ -75,23 +75,23 @@
         </section>
     
         <!-- Contact Form Section -->
-        <section class=" bg-white p-8 rounded-lg shadow-lg mb-8 border border-gray-200">
-            <h2 class="text-3xl font-extrabold mb-6 text-gray-900">Contact Us</h2>
+        <section class=" bg-white p-8 rounded-lg shadow-lg mb-8 border border-gray-200" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold mb-6 text-gray-900" data-aos="fade-up">Contact Us</h2>
             <form action="{{Route('temple')}}" method="post" class="space-y-4">
                 <div class="flex flex-col">
-                    <label for="name" class="text-gray-700 text-lg font-medium">Name</label>
+                    <label for="name" class="text-gray-700 text-lg font-medium" data-aos="fade-up">Name</label>
                     <input type="text" id="name" name="name" class="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500" required>
                 </div>
                 <div class="flex flex-col">
-                    <label for="email" class="text-gray-700 text-lg font-medium">Email</label>
+                    <label for="email" class="text-gray-700 text-lg font-medium" data-aos="fade-up">Email</label>
                     <input type="email" id="email" name="email" class="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500" required>
                 </div>
                 <div class="flex flex-col">
-                    <label for="website" class="text-gray-700 text-lg font-medium">Website</label>
+                    <label for="website" class="text-gray-700 text-lg font-medium" data-aos="fade-up">Website</label>
                     <input type="text" id="website" name="website" class="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500">
                 </div>
                 <div class="flex flex-col">
-                    <label for="comment" class="text-gray-700 text-lg font-medium">Comment</label>
+                    <label for="comment" class="text-gray-700 text-lg font-medium" data-aos="fade-up">Comment</label>
                     <textarea id="comment" name="comment" rows="4" class="p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500" required></textarea>
                 </div>
                 <button type="submit" class="bg-red-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-red-600 transition duration-300">Submit</button>

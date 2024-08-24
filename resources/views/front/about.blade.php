@@ -36,9 +36,9 @@
         </button>
     </div>
 </div> --}}
-<div class="relative">
+<div class="relative" data-aos="fade">
     <img src="assets/img/aboutt.jpeg" alt="About Image" class="w-full h-64 object-cover rounded-lg">
-    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center" data-aos="fade-in">
         <p class="text-white text-2xl font-semibold p-4">
             About Us
         </p>
@@ -46,37 +46,39 @@
 </div>
 
 <!-- About Us Section -->
-<div class="container mx-auto px-4 lg:px-8 py-12 lg:py-24">
+<div class="container mx-auto px-4 lg:px-8 py-12 lg:py-24" data-aos="fade-up">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         <div class="lg:order-2 flex flex-col justify-center">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">About Us</h1>
-            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900" data-aos="fade-up" data-aos-delay="100">About Us</h1>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
                 Real Victory Groups provides comprehensive IT solutions and services including Web Designing & Development, Website Maintenance, Mobile Application Design & Development, Search Engine Optimization, E-commerce Solutions, Google Adwords & PPC (Pay per click), Website Promotion, ERP Software, Domain & Hosting, and software development. Real Victory Groups is happy to offer you a wide range of business services to meet the immediate and future needs of organizations and institutions globally.
             </p>
         </div>
-        <div class="lg:order-1">
+        <div class="lg:order-1" data-aos="fade-left">
             <img src="assets/img/aboutimg.webp" alt="About Us Image" class="object-cover h-full w-full rounded-lg shadow-lg">
         </div>
     </div>
 </div>
- <!-- Banner Start -->
- <div class="py-10 my-0 bg-slate-400">
+
+<!-- Banner Start -->
+<div class="py-10 my-0 bg-slate-400" data-aos="fade">
     <div class="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col lg:flex-row items-center">
-            <div class="lg:w-1/2 text-center lg:text-left">
+            <div class="lg:w-1/2 text-center lg:text-left" data-aos="fade-up">
                 <h1 class="text-3xl font-bold mb-4 text-red-700">Newsers</h1>
                 <h2 class="text-2xl font-semibold mb-4">Get Every Weekly Updates</h2>
                 <p class="text-black mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
                 <div class="relative mx-auto lg:mx-0 w-full lg:w-auto">
-                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Email">
-                    <button type="submit" class="absolute top-0 right-0 mt-1 mr-1 py-2 px-4 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none">Subscribe Now</button>
+                    <input class="w-full lg:w-80 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500" type="email" placeholder="Your Email" data-aos="fade-up" data-aos-delay="300">
+                    <button type="submit" class="absolute top-0 right-0 mt-1 mr-1 py-2 px-4 bg-red-600 text-white rounded-full hover:bg-red-700 focus:outline-none" data-aos="fade-up" data-aos-delay="400">Subscribe Now</button>
                 </div>
             </div>
-            <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4">
-                <img src="assets\img\blog.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
+            <div class="lg:w-1/2 mt-8 lg:mt-0 mx-4" data-aos="fade-right">
+                <img src="assets/img/blog.jpg" class="rounded-lg shadow-lg w-full" alt="Banner Image">
             </div>
         </div>
     </div>
 </div>
+
 
 @endsection

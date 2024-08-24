@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLOG - Real Victory Group</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -25,5 +27,17 @@
     @yield('content')
     @include('component.footer')
 
+    <!-- Include AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        // Initialization of AOS
+        AOS.init({
+          duration: 1000,
+          once: true
+        });
+      </script>      
+
+      
 </body>
 </html>
