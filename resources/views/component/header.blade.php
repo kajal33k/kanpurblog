@@ -155,9 +155,9 @@
     }
 });
 </script>                    
-                    <a href="{{Route('login')}}"
+                    <a href=""
                         class="py-2 px-3 bg-red-50 text-black rounded hover:bg-red-400 transition duration-300 focus:outline-none focus:ring focus:ring-red-200">Login</a>
-                    <a href="{{Route('signup')}}"
+                    <a href=""
                         class="py-2 px-3 bg-gray-500 text-white rounded hover:bg-gray-600 transition duration-300 focus:outline-none focus:ring focus:ring-gray-300">Sign
                         Up</a>
                 </div>
